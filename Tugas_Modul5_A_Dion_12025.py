@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Definision jalur model
-model_path = r'C:\Users\Asus\Documents\PBP\Tugas_Modul5_A_Dion_12025\best_model_tf.h5'
+model_path = r'best_model_tf.h5'
 
 # Muat model
 if os.path.exists(model_path):
